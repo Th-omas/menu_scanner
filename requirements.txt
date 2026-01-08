@@ -1,0 +1,17 @@
+ipykernel
+paddleocr[all]
+paddlepaddle-gpu==3.2.0
+--extra-index-url https://www.paddlepaddle.org.cn/packages/stable/cu126/
+# --- Web backend ---
+fastapi
+uvicorn[standard]
+
+# --- Frontend ---
+streamlit
+
+# --- Image search ---
+requests
+
+# --- Utils ---
+python-multipart
+Pillow
